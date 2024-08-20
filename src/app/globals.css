@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Droid+Sans:wght@400&display=swap');
+p,li {
+    font-size: 0.9em;
+    color: #555555;
+    line-height: 1.63m;
+    font-family: 'Droid Sans', sans-serif, Helvetica, Arial;
+}
+
+body {
+    height: calc(100vh - 1px);
+}

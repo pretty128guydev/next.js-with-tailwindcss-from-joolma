@@ -1,0 +1,97 @@
+{
+    "name": "My Next.js PWA",
+    "short_name": "NextPWA",
+    "description": "A Progressive Web App built with Next.js and Tailwind CSS",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "/AppFu screenshots for sidebar.jpg",
+        "sizes": "202x759",
+        "type": "Image>/jpg"
+      },
+      {
+        "src": "/arrow.png",
+        "sizes": "9x7",
+        "type": "Image>/png"
+      },
+      {
+        "src": "/composite_alt_small.jpg",
+        "sizes": "550x475",
+        "type": "Image>/jpg"
+      },
+      {
+        "src": "/Composite.png",
+        "sizes": "600x392",
+        "type": "Image>/png"
+      },
+      {
+        "src": "/logo.png",
+        "sizes": "151x180",
+        "type": "Image>/png"
+      },
+      {
+        "src": "/DAP_logo_small_with_shadow.png",
+        "sizes": "151x163",
+        "type": "Image>/png"
+      },
+      {
+        "src": "/joomla-cirrus-green-logo.png",
+        "sizes": "250x79",
+        "type": "Image>/png"
+      },
+      {
+        "src": "/slideshow01.jpg",
+        "sizes": "205x392",
+        "type": "Image>/jpg"
+      },
+      {
+        "src": "/screenshot_final-small.png",
+        "sizes": "600x458",
+        "type": "Image>/png"
+      },
+      {
+        "src": "/slideshow2-01.jpg",
+        "sizes": "205x392",
+        "type": "Image>/jpg"
+      },
+      {
+        "src": "/slideshow2-02.jpg",
+        "sizes": "205x392",
+        "type": "Image>/jpg"
+      },
+      {
+        "src": "/slideshow2-03.jpg",
+        "sizes": "205x392",
+        "type": "Image>/jpg"
+      },
+      {
+        "src": "/slideshow2-04.jpg",
+        "sizes": "205x392",
+        "type": "Image>/jpg"
+      },
+      {
+        "src": "/slideshow2-05.jpg",
+        "sizes": "205x392",
+        "type": "Image>/jpg"
+      },
+      {
+        "src": "/slideshow02.jpg",
+        "sizes": "205x392",
+        "type": "Image>/jpg"
+      },
+      {
+        "src": "/slideshow03.jpg",
+        "sizes": "205x392",
+        "type": "Image>/jpg"
+      },
+      {
+        "src": "/slideshow04.jpg",
+        "sizes": "205x392",
+        "type": "Image>/jpg"
+      }
+    ]
+  }
+  
