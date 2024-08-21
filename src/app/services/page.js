@@ -127,7 +127,6 @@ export default function Servicespage() {
               <Link
                 className="font-sans font-normal text-[13.5px] text-[#fff] bg-[#90c140] border-0 px-3 py-1 rounded-md no-underline"
                 href="/products/appfu"
-                rel="next"
               >
                 {"Next > "}
               </Link>

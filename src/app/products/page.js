@@ -1,7 +1,7 @@
 // src/app/products/page.js
 
 import React from "react";
-import Image from 'next/image';
+import Image from "next/image";
 import Link from "next/link";
 
 export default function ProductsPage() {
@@ -84,12 +84,12 @@ export default function ProductsPage() {
                     Here is an example of the Digital Archive Platform, which
                     can be viewed at{" "}
                     <Link
-                      target="_blank"
                       title="Royal Marines Badges"
                       href="http://www.rm-badges.com"
-                      className="text-[#90c140] underline"
                     >
-                      www.rm-badges.com
+                      <a target="_blank" className="text-[#90c140] underline">
+                        www.rm-badges.com
+                      </a>
                     </Link>
                   </p>
                   <p className="mt-2">
@@ -188,7 +188,6 @@ export default function ProductsPage() {
             <Link
               className="font-sans font-normal text-[13.5px] text-[#fff] bg-[#90c140] border-0 px-3 py-1 rounded-md no-underline"
               href="/products/appfu"
-              rel="next"
             >
               {"Next > "}
             </Link>

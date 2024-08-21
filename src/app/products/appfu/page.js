@@ -381,7 +381,6 @@ export default function Appfupage() {
               <li className="float-right">
                 <Link
                   href="/products/digital-archive-platform"
-                  rel="prev"
                   className="font-sans font-normal text-[13.5px] text-[#fff] bg-[#90c140] border-0 px-3 py-1 ml-0 rounded-[3px] no-underline"
                 >
                   &lt; Prev

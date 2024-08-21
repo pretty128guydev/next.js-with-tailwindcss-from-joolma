@@ -117,7 +117,6 @@ export default function Servicespage() {
               <Link
                 className="font-sans font-normal text-[13.5px] text-[#fff] bg-[#90c140] border-0 px-3 py-1 rounded-md no-underline"
                 href="/services/8-articles/8-why-take-your-product-mobile"
-                rel="next"
               >
                 {"Next > "}
               </Link>
@@ -126,7 +125,6 @@ export default function Servicespage() {
               <Link
                 className="font-sans font-normal text-[13.5px] text-[#fff] bg-[#90c140] border-0 px-3 py-1 rounded-md no-underline"
                 href="/services/8-articles/6-alternatives-to-the-app-stores"
-                rel="next"
               >
                 {" < Prev"}
               </Link>
