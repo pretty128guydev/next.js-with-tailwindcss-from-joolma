@@ -70,8 +70,8 @@ const Header = () => {
               src="/icons8-menu.svg"
               alt="menu"
               className="border-none"
-              width={25}
-              height={25}
+              width={35}
+              height={35}
               onMouseUp={() => setDropdownOpen(3)}
               onMouseOut={() => setDropdownOpen(0)}
             />
