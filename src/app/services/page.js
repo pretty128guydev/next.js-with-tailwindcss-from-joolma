@@ -14,7 +14,7 @@ export default function Servicespage() {
           </a>
         </div>
       </div>
-      <div className="mt-1 flex">
+      <div className="mt-1 flex flex-col md:flex-row">
         <div className="w-[20%] min-w-[230px]">
           <div className="w-[196px] m-0 mt-5 mb-7.5 mr-[26px] float-left leading-[1.7em]">
             <div className="overflow-hidden mb-4">

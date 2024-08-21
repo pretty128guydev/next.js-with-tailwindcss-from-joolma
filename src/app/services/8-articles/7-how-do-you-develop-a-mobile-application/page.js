@@ -22,7 +22,7 @@ export default function Servicespage() {
           </a>
         </div>
       </div>
-      <div className="mt-1 flex">
+      <div className="mt-1 flex flex-col md:flex-row">
         <div className="w-[20%] min-w-[230px]">
           <div className="w-[196px] m-0 mt-5 mb-7.5 mr-[26px] float-left leading-[1.7em]">
             <div className="overflow-hidden mb-4">
@@ -33,7 +33,7 @@ export default function Servicespage() {
                 <li className="border-b border-[#e2e2e2] py-[2px] pl-2 list-none">
                   <a
                     className="text-[#000000] font-sans font-semibold text-[14px] leading-[20px] hover:text-[#90c140]"
-                    href="//services/8-articles/6-alternatives-to-the-app-stores"
+                    href="/services/8-articles/6-alternatives-to-the-app-stores"
                   >
                     Alternatives to the app stores{" "}
                   </a>
@@ -41,7 +41,7 @@ export default function Servicespage() {
                 <li className="border-b border-[#e2e2e2] py-[2px] pl-2 list-none">
                   <a
                     className="text-[#000000] font-sans font-semibold text-[14px] leading-[20px] hover:text-[#90c140]"
-                    href="//services/8-articles/7-how-do-you-develop-a-mobile-application"
+                    href="/services/8-articles/7-how-do-you-develop-a-mobile-application"
                   >
                     How do you develop a mobile application?{" "}
                   </a>
@@ -49,7 +49,7 @@ export default function Servicespage() {
                 <li className="border-b border-[#e2e2e2] py-[2px] pl-2 list-none">
                   <a
                     className="text-[#000000] font-sans font-semibold text-[14px] leading-[20px] hover:text-[#90c140]"
-                    href="//services/8-articles/8-why-take-your-product-mobile"
+                    href="/services/8-articles/8-why-take-your-product-mobile"
                   >
                     Why take your product mobile?{" "}
                   </a>
