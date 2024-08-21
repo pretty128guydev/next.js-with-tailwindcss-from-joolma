@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -30,12 +31,12 @@ export default function Home() {
             </p>
             <p className="mt-2">
               Tynesoft offers &nbsp;
-              <a
+              <Link
                 className="text-[#90c140] underline"
                 href="/services"
               >
                 services
-              </a>
+              </Link>
               &nbsp; centered around the intersection of enterprise/web and
               mobile applications:
             </p>
@@ -87,13 +88,13 @@ export default function Home() {
               We also develop and market our own mobile products that utilize
               our expertise in enterprise applications and mobile collaboration.
               Our mobile apps are aimed at small to medium size businesses, the
-              <a
+              <Link
                 className="text-[#90c140] underline"
                 href="/products/appfu"
               >
                 {" "}
                 AppFu
-              </a>{" "}
+              </Link>{" "}
               application also targeting consumers.
             </p>
             <br />

@@ -1,5 +1,6 @@
 // src/app/products/page.js
 
+import Link from "next/link";
 import React from "react";
 
 export default function Servicespage() {
@@ -8,18 +9,18 @@ export default function Servicespage() {
       <div className="w-auto text-[0.89em] no-underline mb-0 mt-4">
         <div>
           <span>You are here: </span>
-          <a href="/" className="text-[#000000] no-underline"></a>► &nbsp;
-          <a href="" className="text-[#000000] no-underline">
+          <Link href="/" className="text-[#000000] no-underline"></Link>► &nbsp;
+          <Link href="" className="text-[#000000] no-underline">
             Services &nbsp;
-          </a>
+          </Link>
           ► &nbsp;
-          <a href="" className="text-[#000000] no-underline">
+          <Link href="" className="text-[#000000] no-underline">
             Articles &nbsp;
-          </a>
+          </Link>
           ► &nbsp;
-          <a href="" className="text-[#000000] no-underline">
+          <Link href="" className="text-[#000000] no-underline">
             Alternatives to the app stores
-          </a>
+          </Link>
         </div>
       </div>
       <div className="mt-1 flex flex-col md:flex-row">
@@ -31,28 +32,28 @@ export default function Servicespage() {
               </h3>
               <ul className="pl-0 list-none ml-0 mt-3 mb-5">
                 <li className="border-b border-[#e2e2e2] py-[2px] pl-2 list-none">
-                  <a
+                  <Link
                     className="text-[#000000] font-sans font-semibold text-[14px] leading-[20px] hover:text-[#90c140]"
                     href="/services/8-articles/6-alternatives-to-the-app-stores"
                   >
                     Alternatives to the app stores{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li className="border-b border-[#e2e2e2] py-[2px] pl-2 list-none">
-                  <a
+                  <Link
                     className="text-[#000000] font-sans font-semibold text-[14px] leading-[20px] hover:text-[#90c140]"
                     href="/services/8-articles/7-how-do-you-develop-a-mobile-application"
                   >
                     How do you develop a mobile application?{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li className="border-b border-[#e2e2e2] py-[2px] pl-2 list-none">
-                  <a
+                  <Link
                     className="text-[#000000] font-sans font-semibold text-[14px] leading-[20px] hover:text-[#90c140]"
                     href="/services/8-articles/8-why-take-your-product-mobile"
                   >
                     Why take your product mobile?{" "}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -92,13 +93,13 @@ export default function Servicespage() {
                   – a DUNS number for your company and $299. As usual you’ll
                   need a certificate and provisioning profile, plus a manifest
                   file for wireless installations. More details{" "}
-                  <a
+                  <Link
                     className="text-[#2089cc] underline outline-none"
                     title="Apple article on Enterprise deployment"
                     href="http://developer.apple.com/library/ios/#featuredarticles/FA_Wireless_Enterprise_App_Distribution/Introduction/Introduction.html"
                   >
                     here
-                  </a>
+                  </Link>
                   . Note that Apple specifies this is for ‘
                   <em>
                     in-house apps for employees or members of your organization
@@ -146,13 +147,13 @@ export default function Servicespage() {
                   <p className="ml-2">
                     Push: use your BlackBerry Enterprise Server (BES) push the
                     application to the device. This falls into what I call{" "}
-                    <a
+                    <Link
                       className="text-[#90c140] underline"
                       title="BES App Push"
                       href="http://www.blackberry.com/btsc/search.do?cmd=displayKC&amp;docType=kc&amp;externalId=KB03748&amp;sliceId=SAL_Public&amp;dialogID=151008089&amp;stateId=1%200%20151002852"
                     >
                       non-trivial
-                    </a>
+                    </Link>
                     .
                   </p>
                 </li>
@@ -173,21 +174,21 @@ export default function Servicespage() {
                     </pre>
                     <p className="mt-2">
                       More info{" "}
-                      <a
+                      <Link
                         className="text-[#90c140] underline"
                         title="OTA Blackberry deployment"
                         href="http://assets.handango.com/marketing/developerTeam/BlackBerryOTADeployment.pdf"
                       >
                         here
-                      </a>
+                      </Link>
                       . Here’s the{" "}
-                      <a
+                      <Link
                         className="text-[#90c140] underline"
                         title="Deploying Java Applications"
                         href="http://www.blackberry.com/knowledgecenterpublic/livelink.exe/fetch/2000/7979/1181821/832210/Deploying_Java_Applications.pdf?nodeid=1270269&amp;vernum=0"
                       >
                         full scoop from RIM
-                      </a>
+                      </Link>
                       .
                     </p>
                   </p>
@@ -204,22 +205,22 @@ export default function Servicespage() {
           </article>
           <ul className="list-none m-0 mt-5 p-1 overflow-hidden">
             <li className="float-right">
-              <a
+              <Link
                 className="font-sans font-normal text-[13.5px] text-[#fff] bg-[#90c140] border-0 px-3 py-1 rounded-md no-underline"
                 href="/services/8-articles/7-how-do-you-develop-a-mobile-application"
                 rel="next"
               >
                 {"Next > "}
-              </a>
+              </Link>
             </li>
             <li className="float-left">
-              <a
+              <Link
                 className="font-sans font-normal text-[13.5px] text-[#fff] bg-[#90c140] border-0 px-3 py-1 rounded-md no-underline"
                 href="/services"
                 rel="next"
               >
                 {" < Prev"}
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

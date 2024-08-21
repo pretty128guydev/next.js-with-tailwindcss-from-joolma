@@ -1,5 +1,6 @@
 // src/app/products/page.js
 
+import Link from "next/link";
 import React from "react";
 
 export default function Servicespage() {
@@ -8,10 +9,10 @@ export default function Servicespage() {
       <div className="w-auto text-[0.89em] no-underline mb-0 mt-4">
         <div>
           <span>You are here: </span>
-          <a href="/" className="text-[#000000] no-underline"></a>► &nbsp;
-          <a href="" className="text-[#000000] no-underline">
+          <Link href="/" className="text-[#000000] no-underline"></Link>► &nbsp;
+          <Link href="" className="text-[#000000] no-underline">
             Services
-          </a>
+          </Link>
         </div>
       </div>
       <div className="mt-1 flex flex-col md:flex-row">
@@ -23,28 +24,28 @@ export default function Servicespage() {
               </h3>
               <ul className="pl-0 list-none ml-0 mt-3 mb-5">
                 <li className="border-b border-[#e2e2e2] py-[2px] pl-2 list-none">
-                  <a
+                  <Link
                     className="text-[#000000] font-sans font-semibold text-[14px] leading-[20px] hover:text-[#90c140]"
                     href="//services/8-articles/6-alternatives-to-the-app-stores"
                   >
                     Alternatives to the app stores{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li className="border-b border-[#e2e2e2] py-[2px] pl-2 list-none">
-                  <a
+                  <Link
                     className="text-[#000000] font-sans font-semibold text-[14px] leading-[20px] hover:text-[#90c140]"
                     href="//services/8-articles/7-how-do-you-develop-a-mobile-application"
                   >
                     How do you develop a mobile application?{" "}
-                  </a>
+                  </Link>
                 </li>
                 <li className="border-b border-[#e2e2e2] py-[2px] pl-2 list-none">
-                  <a
+                  <Link
                     className="text-[#000000] font-sans font-semibold text-[14px] leading-[20px] hover:text-[#90c140]"
                     href="//services/8-articles/8-why-take-your-product-mobile"
                   >
                     Why take your product mobile?{" "}
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -123,13 +124,13 @@ export default function Servicespage() {
           </article>
           <ul className="list-none m-0 mt-5 p-1 overflow-hidden">
             <li className="float-right">
-              <a
+              <Link
                 className="font-sans font-normal text-[13.5px] text-[#fff] bg-[#90c140] border-0 px-3 py-1 rounded-md no-underline"
                 href="/products/appfu"
                 rel="next"
               >
                 {"Next > "}
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

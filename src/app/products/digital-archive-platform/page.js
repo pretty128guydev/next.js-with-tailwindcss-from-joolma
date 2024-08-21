@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function DigitalProductsPage() {
   return (
@@ -10,9 +11,9 @@ export default function DigitalProductsPage() {
         <div className="w-auto text-[0.89em] no-underline mb-0 mt-4">
           <div className="flex">
             <span>You are here: </span>
-            <a href="/" className="text-[#000000] no-underline">
+            <Link href="/" className="text-[#000000] no-underline">
               Home &nbsp;
-            </a>
+            </Link>
             <span>▶ Products</span> &nbsp;
             <span>▶ Digital Archive Platform</span>
           </div>
@@ -83,14 +84,14 @@ export default function DigitalProductsPage() {
                   <p className="mt-2">
                     Here is an example of the Digital Archive Platform, which
                     can be viewed at{" "}
-                    <a
+                    <Link
                       target="_blank"
                       title="Royal Marines Badges"
                       href="http://www.rm-badges.com"
                       className="text-[#90c140] underline"
                     >
                       www.rm-badges.com
-                    </a>
+                    </Link>
                   </p>
                   <p className="mt-2">
                     <Image
@@ -185,13 +186,13 @@ export default function DigitalProductsPage() {
         </div>
         <ul className="list-none m-0 mt-5 p-1 overflow-hidden">
           <li className="float-right">
-            <a
+            <Link
               className="font-sans font-normal text-[13.5px] text-[#fff] bg-[#90c140] border-0 px-3 py-1 rounded-md no-underline"
               href="/products/appfu"
               rel="next"
             >
               {"Next > "}
-            </a>
+            </Link>
           </li>
         </ul>
       </div>

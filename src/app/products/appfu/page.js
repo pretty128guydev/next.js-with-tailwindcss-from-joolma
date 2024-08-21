@@ -2,6 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Appfupage() {
   return (
@@ -10,10 +11,11 @@ export default function Appfupage() {
         <div className="w-auto text-[0.89em] no-underline mb-0 mt-4">
           <div>
             <span>You are here: </span> &nbsp;
-            <a href="/" className="text-[#000000] no-underline"></a>► &nbsp;
-            <a href="" className="text-[#000000] no-underline">
+            <Link href="/" className="text-[#000000] no-underline"></Link>►
+            &nbsp;
+            <Link href="" className="text-[#000000] no-underline">
               Products
-            </a>{" "}
+            </Link>{" "}
             ►&nbsp;<span>AppFu</span>
           </div>
         </div>
@@ -124,33 +126,33 @@ export default function Appfupage() {
               </h1>
               <div>
                 <p>
-                  <a
+                  <Link
                     href="#login"
                     className="font-sans font-normal text-[#90c140] leading-[1.15em] mb-3 underline"
                   >
                     Login
-                  </a>{" "}
+                  </Link>{" "}
                   | &nbsp;
-                  <a
+                  <Link
                     href="#choose_a_list"
                     className="font-sans font-normal text-[#90c140] leading-[1.15em] mb-3 underline"
                   >
                     Choose a list
-                  </a>{" "}
+                  </Link>{" "}
                   | &nbsp;
-                  <a
+                  <Link
                     href="#choose_an_item"
                     className="font-sans font-normal text-[#90c140] leading-[1.15em] mb-3 underline"
                   >
                     Choose an item
-                  </a>{" "}
+                  </Link>{" "}
                   | &nbsp;
-                  <a
+                  <Link
                     href="#view_modify"
                     className="font-sans font-normal text-[#90c140] leading-[1.15em] mb-3 underline"
                   >
                     View/Modify
-                  </a>
+                  </Link>
                 </p>
                 <div>
                   <div>
@@ -251,40 +253,40 @@ export default function Appfupage() {
             </h1>
             <div>
               <p>
-                <a
+                <Link
                   href="#choose_name"
                   className="font-sans font-normal text-[#90c140] leading-[1.15em] mb-3 underline"
                 >
                   Choose Name
-                </a>{" "}
+                </Link>{" "}
                 | &nbsp;
-                <a
+                <Link
                   href="#share"
                   className="font-sans font-normal text-[#90c140] leading-[1.15em] mb-3 underline"
                 >
                   Share
-                </a>{" "}
+                </Link>{" "}
                 | &nbsp;
-                <a
+                <Link
                   href="#add_attributes"
                   className="font-sans font-normal text-[#90c140] leading-[1.15em] mb-3 underline"
                 >
                   Add Attributes
-                </a>{" "}
+                </Link>{" "}
                 | &nbsp;
-                <a
+                <Link
                   href="#advanced_options"
                   className="font-sans font-normal text-[#90c140] leading-[1.15em] mb-3 underline"
                 >
                   Advanced Options
-                </a>{" "}
+                </Link>{" "}
                 | &nbsp;
-                <a
+                <Link
                   href="#list_options"
                   className="font-sans font-normal text-[#90c140] leading-[1.15em] mb-3 underline"
                 >
                   List Options
-                </a>
+                </Link>
               </p>
               <div>
                 <div>
@@ -377,13 +379,13 @@ export default function Appfupage() {
             </div>
             <ul className="list-none m-0 mt-5 p-1 overflow-hidden">
               <li className="float-right">
-                <a
+                <Link
                   href="/products/digital-archive-platform"
                   rel="prev"
                   className="font-sans font-normal text-[13.5px] text-[#fff] bg-[#90c140] border-0 px-3 py-1 ml-0 rounded-[3px] no-underline"
                 >
                   &lt; Prev
-                </a>
+                </Link>
               </li>
             </ul>
           </article>
@@ -393,7 +395,11 @@ export default function Appfupage() {
         <div className="overflow-hidden mb-4">
           <div>
             <p>
-              <Image src="/AppFu screenshots for sidebar.jpg" width={205} height={392}></Image>
+              <Image
+                src="/AppFu screenshots for sidebar.jpg"
+                width={205}
+                height={392}
+              ></Image>
             </p>
           </div>
         </div>
