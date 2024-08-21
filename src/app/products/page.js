@@ -86,10 +86,10 @@ export default function ProductsPage() {
                     <Link
                       title="Royal Marines Badges"
                       href="http://www.rm-badges.com"
+                      target="_blank"
+                      className="text-[#90c140] underline"
                     >
-                      <a target="_blank" className="text-[#90c140] underline">
-                        www.rm-badges.com
-                      </a>
+                      www.rm-badges.com
                     </Link>
                   </p>
                   <p className="mt-2">

@@ -56,12 +56,12 @@ const Header = () => {
             <div className="mb-2">
               <p className="text-[#555555]">
                 Contact Us:&nbsp;&nbsp;
-                <a
+                <Link
                   href="mailto:info@tynesoft.com"
                   className="text-[#90c140] no-underline"
                 >
                   info@tynesoft.com
-                </a>
+                </Link>
               </p>
             </div>
           </div>
